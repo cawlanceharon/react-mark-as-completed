@@ -25,7 +25,7 @@ class Login extends React.Component {
 
         localStorage.setItem('user', JSON.stringify(sessionObject));
 
-        return <Redirect to='/users' />;
+        return <Redirect to='/todo' />;
     }
 
     render() {

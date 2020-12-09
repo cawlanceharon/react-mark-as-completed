@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts components/users/users-container.jsbuild",
+    "build": "react-scripts components/todo/todo-container.jsbuild",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -1,6 +1,11 @@
-import React from 'react'
-import './not-found.scss';
+import React, { useState } from 'react'
 
-const Notfound = () => <h1>Not found</h1>
+export const Notfound = () => {
+  return (
+    <>
+        <h1>Page Not Found</h1>
+    </>
+  )
+}
 
 export default Notfound
